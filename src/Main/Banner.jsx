@@ -2,7 +2,7 @@ import React from "react";
 import '../index.css';
 
 function Banner() {
-    const socialLinks = [
+    const socialLinks = [ 
         { id: 1, url: "https://x.com/?lang=ru", iconClass: "fi fi-brands-twitter-alt-circle" },
         { id: 2, url: "#", iconClass: "fi fi-brands-instagram" },
         { id: 3, url: "#", iconClass: "fi fi-brands-facebook" },
@@ -35,7 +35,7 @@ function Banner() {
 
                         {/* Изображение наушников: адаптивная ширина */}
                         <img
-                            src="./BannerHeadphones.png"
+                            src="./carusel.png"
                             alt="headphones"
                             className="relative z-10 w-[180px] sm:w-[300px] md:w-[400px] h-auto"
                         />
