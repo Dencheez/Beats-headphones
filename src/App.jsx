@@ -29,7 +29,6 @@ const removeFromCart = (index) => {
   setCart(cart.filter((_, i) => i !== index));
 };
 
-  // App.jsx (пример массива слайдов) но у меня не получилось (потом)
 const slides = [
   {
     id: 1,
@@ -64,7 +63,7 @@ const slides = [
     views: [
       { id: 'v1', name: 'Main', src: './carusel1.png' },
       { id: 'v2', name: 'Side', src: './CaruselCard-Blue.png' },
-      { id: 'v3', name: 'Box', src: './CaruselBag.png' },
+      { id: 'v3', name: 'Box', src: 'CaruselBag.png' },
       // ... и так далее для всех 5 слайдов
     ]
   },

@@ -16,7 +16,6 @@ function ProductFeatures() {
                     in the world. And the company's Beats Studio 3.
                 </p>
                 <div className="pt-4">
-                    {/* бэк Ссылка на категорию или галерею */}
                     <a href="#" className="text-white pb-1 hover:text-gray-400 transition-colors text-lg ">
                         Learn more;
                     </a>
