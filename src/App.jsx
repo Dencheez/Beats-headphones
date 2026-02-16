@@ -35,36 +35,36 @@ const slides = [
     id: 1,
     model: "Studio 3",
     price: "$349",
-    src: "/Info-Hero.png", // Главное фото
+    src: "./Info-Hero.png", // Главное фото
     // Добавляем массив всех видов именно для ЭТОЙ модели
     views: [
-      { id: 'v1', name: 'Main', src: '/CaruselHead-rightVIew.png' },
-      { id: 'v2', name: 'Side', src: '/CaruselCard.png' },
-      { id: 'v3', name: 'Box', src: '/CaruselHead-down.png' },
-      { id: 'v4', name: 'Case', src: '/CaruselBag.png' },
+      { id: 'v1', name: 'Main', src: './CaruselHead-rightVIew.png' },
+      { id: 'v2', name: 'Side', src: './CaruselCard.png' },
+      { id: 'v3', name: 'Box', src: './CaruselHead-down.png' },
+      { id: 'v4', name: 'Case', src: './CaruselBag.png' },
     ]
   },
   {
     id: 2,
     model: "Solo Pro Red",
     price: "$299",
-    src: "/carusel.png",
+    src: "./carusel.png",
     views: [
-      { id: 'v1', name: 'Main', src: '/CaruselHead-rightVIewRed.png' },
-      { id: 'v2', name: 'Side', src: '/CaruselCard-Red.png' },
-      { id: 'v3', name: 'Case', src: '/CaruselHead-downRed.png' },
-      { id: 'v4', name: 'Box', src: '/CaruselBag-Red.png' }
+      { id: 'v1', name: 'Main', src: './CaruselHead-rightVIewRed.png' },
+      { id: 'v2', name: 'Side', src: './CaruselCard-Red.png' },
+      { id: 'v3', name: 'Case', src: './CaruselHead-downRed.png' },
+      { id: 'v4', name: 'Box', src: './CaruselBag-Red.png' }
     ]
   },
   {
     id: 3,
     model: "Solo Pro Stich",
     price: "$299",
-    src: "/carusel1.png",
+    src: "./carusel1.png",
     views: [
-      { id: 'v1', name: 'Main', src: '/carusel1.png' },
-      { id: 'v2', name: 'Side', src: '/CaruselCard-Blue.png' },
-      { id: 'v3', name: 'Box', src: '/CaruselBag.png' },
+      { id: 'v1', name: 'Main', src: './carusel1.png' },
+      { id: 'v2', name: 'Side', src: './CaruselCard-Blue.png' },
+      { id: 'v3', name: 'Box', src: './CaruselBag.png' },
       // ... и так далее для всех 5 слайдов
     ]
   },
@@ -72,11 +72,11 @@ const slides = [
     id: 4,
     model: "Solo Pro 02",
     price: "$299",
-    src: "/carusel3.png",
+    src: "./carusel3.png",
     views: [
-      { id: 'v1', name: 'Main', src: '/carusel3.png' },
-      { id: 'v2', name: 'Side', src: '/CaruselCard-White.png' },
-     { id: 'v3', name: 'Box', src: '/CaruselBag.png' }
+      { id: 'v1', name: 'Main', src: './carusel3.png' },
+      { id: 'v2', name: 'Side', src: './CaruselCard-White.png' },
+     { id: 'v3', name: 'Box', src: './CaruselBag.png' }
       // ... и так далее для всех 5 слайдов
     ]
   },
@@ -84,12 +84,12 @@ const slides = [
     id: 5,
     model: "Solo Pro Pink",
     price: "$299",
-    src: "/carusel4.png",
+    src: "./carusel4.png",
     views: [
-      { id: 'v1', name: 'Main', src: '/CaruselHead-rightVIewPink.png' },
-      { id: 'v2', name: 'Side', src: '/CaruselCard-Pink.png' },
-      { id: 'v3', name: 'Case', src: '/CaruselHead-downPimk.png' },
-      { id: 'v4', name: 'Box', src: '/CaruselBag-Pink.png' },
+      { id: 'v1', name: 'Main', src: './CaruselHead-rightVIewPink.png' },
+      { id: 'v2', name: 'Side', src: './CaruselCard-Pink.png' },
+      { id: 'v3', name: 'Case', src: './CaruselHead-downPimk.png' },
+      { id: 'v4', name: 'Box', src: './CaruselBag-Pink.png' },
     ]
   }
 ];

@@ -119,7 +119,7 @@ function Info() {
                     </div>
 
                     {/* Картинка: адаптивный размер */}
-                    <img src="/Info-Hero.png" alt="Headphones" className="object-contain w-[280px] md:w-[350px] z-10 drop-shadow-2xl" />
+                    <img src="./Info-Hero.png" alt="Headphones" className="object-contain w-[280px] md:w-[350px] z-10 drop-shadow-2xl" />
                 </div>
 
             </main>

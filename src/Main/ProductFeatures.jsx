@@ -26,19 +26,18 @@ function ProductFeatures() {
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-0">
                 
                 {/* Card 1 */}
-                {/* БЭК: Все карточки ниже — это идеальный кандидат под .map() */}
                 <div className="bg-[#252525] rounded-[60px] aspect-square flex items-center justify-center p-12 hover:bg-[#2a2a2a] transition-colors group">
-                    <img src="/Product1.png" alt="Beats side" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
+                    <img src="./Product1.png" alt="Beats side" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
                 </div>
 
                 {/* Card 2 */}
                 <div className="bg-[#252525] rounded-[60px] aspect-square flex items-center justify-center p-12 hover:bg-[#2a2a2a] transition-colors group">
-                    <img src="/Product2.png" alt="Beats front" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
+                    <img src="./Product2.png" alt="Beats front" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
                 </div>
 
                 {/* Card 3 */}
                 <div className="bg-[#252525] rounded-[60px] aspect-square flex items-center justify-center p-12 hover:bg-[#2a2a2a] transition-colors group">
-                    <img src="/Product3.png" alt="Beats angle" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
+                    <img src="./Product3.png" alt="Beats angle" className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500" />
                 </div>
 
             </div>

@@ -20,7 +20,7 @@ function Accessories(){
     <div className="relative w-full md:w-1/2 flex justify-center">
       <div className="absolute size-64 md:size-150 bg-white/5 blur-[80px] md:blur-[100px] rounded-full"></div>
       {/*бэк  из таблицы 'products' (id чехла) */}
-      <img src="/bag.png" alt="Headphone Bag" className="relative z-10 w-64 md:w-80 object-contain" />
+      <img src="./bag.png" alt="Headphone Bag" className="relative z-10 w-64 md:w-80 object-contain" />
     </div>
     
     <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
@@ -41,7 +41,7 @@ function Accessories(){
     <div className="relative w-full md:w-1/2 flex justify-center">
        <div className="absolute size-64 md:size-100 bg-white/10 blur-[80px] md:blur-[100px] rounded-full"></div>
        {/* TODO БЭК: image_url для зарядки */}
-      <img src="/charger.png" alt="Charger" className="rotate-270 relative z-10 h-64 md:h-80 object-contain" />
+      <img src="./charger.png" alt="Charger" className="rotate-270 relative z-10 h-64 md:h-80 object-contain" />
     </div>
 
     <div className="w-full md:w-1/2 text-center md:text-left space-y-6">

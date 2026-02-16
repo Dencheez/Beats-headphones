@@ -35,7 +35,7 @@ function Banner() {
 
                         {/* Изображение наушников: адаптивная ширина */}
                         <img
-                            src="./carusel.png"
+                            src="./Info-Hero.png"
                             alt="headphones"
                             className="relative z-10 w-[180px] sm:w-[300px] md:w-[400px] h-auto"
                         />
