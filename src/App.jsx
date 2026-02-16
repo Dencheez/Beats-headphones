@@ -90,7 +90,6 @@ const slides = [
       { id: 'v2', name: 'Side', src: '/CaruselCard-Pink.png' },
       { id: 'v3', name: 'Case', src: '/CaruselHead-downPimk.png' },
       { id: 'v4', name: 'Box', src: '/CaruselBag-Pink.png' },
-      // ... и так далее для всех 5 слайдов
     ]
   }
 ];
