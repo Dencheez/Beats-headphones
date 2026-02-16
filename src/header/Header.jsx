@@ -20,7 +20,7 @@ function Header({onAccountClick, onCartClick, cartCount}) {
             <div className="header-title flex items-center justify-between px-6 md:px-10 py-4">
                 
                 {/* Логотип */}
-                <img src="/Nav-logo-Headphonse.svg" alt="logo" className="header-logo w-[25px] z-50" />
+                <img src="./Nav-logo-Headphonse.svg" alt="logo" className="header-logo w-[25px] z-50" />
                 
                 {/* Навигация: на мобилках выезжающая панель */}
                 <nav className={`header-nav absolute md:relative top-0 left-0 w-full h-screen md:h-auto bg-[#121212] md:bg-transparent flex flex-col md:flex-row items-center justify-center transition-transform duration-300 z-40 ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}>

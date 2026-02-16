@@ -14,7 +14,7 @@ function Footer() {
 
         {/* Логотип */}
         <div className="flex items-center gap-2">
-          <img src="/Nav-logo-Headphonse.svg" alt="Beats Logo" className="w-6 h-6" />
+          <img src="./Nav-logo-Headphonse.svg" alt="Beats Logo" className="w-6 h-6" />
           <span className="text-white font-bold text-xl tracking-tight">Apple beats</span>
         </div>
 
