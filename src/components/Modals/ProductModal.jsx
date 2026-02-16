@@ -13,13 +13,13 @@ const ProductModal = ({ isOpen, onClose, product, onAddToCart}) => {
 
   if (!isOpen || !product) return null;
 
-  const accessories = [
-    { id: 1, name: 'Main View', src: product.src }, // Добавим сами наушники как вариант просмотра
-    { id: 2, name: 'Side View', src: '/CaruselHead-rightVIew.png' }, 
-    { id: 3, name: 'Card', src: '/CaruselCard.png' },
-    { id: 4, name: 'Down View', src: '/CaruselHead-down.png' },
-    { id: 5, name: 'Case', src: '/CaruselBag.png' }
-  ];
+const accessories = [
+  { id: 1, name: 'Main View', src: product.src },
+  { id: 2, name: 'Side View', src: `${import.meta.env.BASE_URL}CaruselHead-rightVIew.png` }, 
+  { id: 3, name: 'Card', src: `${import.meta.env.BASE_URL}CaruselCard.png` },
+  { id: 4, name: 'Down View', src: `${import.meta.env.BASE_URL}CaruselHead-down.png` },
+  { id: 5, name: 'Case', src: `${import.meta.env.BASE_URL}CaruselBag.png` }
+];
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 backdrop-blur-md px-4 animate-fade">
