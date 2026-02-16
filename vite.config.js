@@ -6,5 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   // Добавьте эту строку. Название должно СТРОГО совпадать с именем репозитория на GitHub
-  base: '/headphones-big/', 
+  base: '/Beats-headphones/', 
 })
